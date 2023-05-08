@@ -1,0 +1,142 @@
+.wrap {
+  max-width: 600px;
+  margin: auto;
+  position: relative;
+}
+h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 1rem;
+}
+.guide_chat {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.guide_chat label {
+  width: 30%;
+}
+.guide_chat input {
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid red;
+  outline: none;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.guide_chat input:focus {
+  background-color: #eaeaea;
+}
+.chat_con {
+  background-color: beige;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  height: 60vh;
+  overflow-y: scroll;
+}
+.kakaoAd {
+  height: 100%;
+  width: 100%;
+}
+.kakaoAd2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.kakaoAd3 {
+  height: 100%;
+  width: 100%;
+}
+.chat_message > p {
+  background-color: antiquewhite;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0.5rem 0;
+}
+.chat_message .assistant {
+  background-color: white;
+  border-radius: 0 1rem 1rem 1rem;
+}
+.chat_message .userMessages {
+  border-radius: 1rem 0 1rem 1rem;
+}
+.chat_message .assistant span,
+.chat_message .userMessages span {
+  font-weight: 900;
+}
+
+.chatInput {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 100%;
+}
+.chatInput > input {
+  flex: 1;
+}
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-radius: 1rem;
+  border: 2px solid black;
+  padding: 1rem 0;
+  font-weight: bold;
+}
+
+.restart {
+}
+.loder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin: 1rem;
+}
+.loder .fa-stethoscope {
+  font-weight: bolder;
+}
+.Warning {
+  font-size: 10px;
+  margin: auto;
+  padding: 2rem;
+  font-weight: 600;
+  background-color: #eaeaea;
+  bottom: 200px;
+}
+footer {
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ft1,
+.ft2 {
+  color: white;
+  font-weight: 600;
+  margin: 0.5rem;
+}
+.ft2 {
+  text-align: end;
+}
+.ft2 img {
+  width: 10%;
+}
+@media (max-width: 450px) {
+  .guide_chat label,
+  #disease,
+  #btnSendMessage {
+    width: 100%;
+    margin: 1rem;
+  }
+  .ft2 img {
+    width: 20%;
+  }
+}
