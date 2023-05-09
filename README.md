@@ -56,11 +56,9 @@ aiHospital 프로젝트는 인공지능 지식 기반 시스템과 채팅 기능
 
 #### 사용한 문법 등 정리
 
-Link : [organize history](https://xorb0719.tistory.com/23)
-<br />
+openapi, node.js, express, cors 사용 
 
-#### 이슈 정리
+backend, frontend 나눠서 배포(aws에서 api 배포 후) 클라우드페어에서 front 실행
 
-Link : [Issue history](https://xorb0719.tistory.com/24)
-<br />
+AWS에서 API 서버를 배포하고, 해당 API를 호출하는 html로 만든 어플리케이션을 클라우드페어와 같은 PaaS(Platform as a Service) 환경에서 호스팅할 수 있습니다. 이 경우, 클라우드페어에서는 frontend 코드를 호스팅하고, 해당 코드는 AWS API 서버와 통신하여 데이터를 가져올 수 있습니다.
 <br />
